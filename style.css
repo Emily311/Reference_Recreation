@@ -1,0 +1,131 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: helvetica;
+  font-size: 12vmin;
+  background-color: #CCCCCC;
+}
+
+html{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container{
+  display：relative;
+  height:100%;
+  /* justify-content: flex-start;
+  align-content: space-between; */
+}
+
+.background{
+  display: flex;
+  flex-direction: column;
+  background: #CCCCCC;
+}
+
+.banner {
+  display：flex;
+  padding: 5vmin;
+  flex-direction: column;
+  font-family: helvetica;
+  height: 60vmin;
+  background: #CC2700;
+  font-weight: 600;
+}
+
+.title {
+  margin-left: 4vmin;
+  display:flex;
+  align-items: baseline;
+  color: #CCCCCC;
+  position: relative;
+  margin-top: 26vmin;
+}
+
+.title:first-child {
+  font-family: helvetica;
+  font-size: 12vmin;
+  font-weight: 600;
+}
+
+.title p:nth-child(2){
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 1.5vmin;
+  margin-left: 2vmin;
+}
+
+.title2 {
+  margin-left: 4vmin;
+  display:flex;
+  align-items: baseline;
+  color: #CC2700;
+  position: relative;
+	margin-top: 0vmin;
+}
+
+.title2:first-child {
+  font-family: helvetica;
+  font-size: 12vmin;
+  font-weight: 600;
+}
+
+.title2 p:nth-child(2){
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 1.5vmin;
+  margin-left: 2vmin;
+}
+
+.AdobeFonts {
+  margin-left: 7vmin;
+  padding: 2.5vmin;
+  display:flex;
+  flex-direction: column;
+  font-size:1.5vmin;
+  line-height: 1.5em;
+  position: relative;
+	margin-top: 40vmin;
+}
+.AdobeFonts:first-child {
+font-size: 1vmin;
+font-weight: bolder;
+}
+
+.AdobeFonts p:nth-child(2){
+font-weight: lighter;
+}
+
+.AdobeFonts p:nth-child(3){
+font-weight: lighter;
+}
+
+.reverse {
+  margin-left: 25vmin;
+  padding: 2.5vmin;
+  display:flex;
+  flex-direction: column;
+  font-size: 1.5vmin;
+  line-height: 1.5em;
+  position: relative;
+  margin-top: 37vmin;
+}
+.reverse:first-child {
+font-size: 1vmin;
+font-weight: bolder;
+}
+
+.reverse p:nth-child(2){
+font-weight: lighter;
+}
+
+.reverse p:nth-child(3){
+font-weight: lighter;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
