@@ -15,8 +15,6 @@ html{
 .container{
   display：relative;
   height:100%;
-  /* justify-content: flex-start;
-  align-content: space-between; */
 }
 
 .background{
