@@ -30,24 +30,25 @@ html{
   padding: 5vmin;
   flex-direction: column;
   font-family: helvetica;
-  height: 60vmin;
+  height: 75vmin;
   background: #CC2700;
   font-weight: 600;
 }
 
 .title {
-  margin-left: 4vmin;
+  margin-left: 0vmin;
   display:flex;
   align-items: baseline;
   color: #CCCCCC;
   position: relative;
-  margin-top: 26vmin;
+  margin-top: 42vmin;
 }
 
 .title:first-child {
   font-family: helvetica;
   font-size: 12vmin;
   font-weight: 600;
+  transform: scaleY(.87);
 }
 
 .title p:nth-child(2){
@@ -58,7 +59,7 @@ html{
 }
 
 .title2 {
-  margin-left: 4vmin;
+  margin-left: 0vmin;
   display:flex;
   align-items: baseline;
   color: #CC2700;
@@ -70,6 +71,7 @@ html{
   font-family: helvetica;
   font-size: 12vmin;
   font-weight: 600;
+  transform: scaleY(.70);
 }
 
 .title2 p:nth-child(2){
@@ -80,7 +82,7 @@ html{
 }
 
 .AdobeFonts {
-  margin-left: 7vmin;
+  margin-left: 3vmin;
   padding: 2.5vmin;
   display:flex;
   flex-direction: column;
@@ -103,7 +105,7 @@ font-weight: lighter;
 }
 
 .reverse {
-  margin-left: 25vmin;
+  margin-left: 0vmin;
   padding: 2.5vmin;
   display:flex;
   flex-direction: column;
@@ -129,5 +131,3 @@ font-weight: lighter;
   display: flex;
   flex-direction: row;
 }
-/* 
-.contentContainer */
